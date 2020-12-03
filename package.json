@@ -1,0 +1,26 @@
+{
+  "name": "dates-ranger",
+  "version": "0.0.1",
+  "description": "dates util facilitate operations on two dates",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstechfoodie/dates-ranger.git"
+  },
+  "keywords": [],
+  "author": "Shunyu Wang <wshy878@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cstechfoodie/dates-ranger/issues"
+  },
+  "homepage": "https://github.com/cstechfoodie/dates-ranger#readme",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+   }
+}
