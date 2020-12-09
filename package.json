@@ -1,6 +1,6 @@
 {
   "name": "dates-ranger",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "dates util facilitates operations on two dates",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
