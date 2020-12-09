@@ -2,8 +2,6 @@
 
 Dates-ranger helps you find date interval and calculate duration much easier than ever. This library is light-weighted and dependency free, and it is purely developed in [Typescript](https://www.npmjs.com/package/typescript).
 
-Tip: Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CLI.
-
 ## Table of Contents
 
 - [Install](#install)
@@ -11,6 +9,7 @@ Tip: Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in yo
   - [Background](#Background)
   - [Interval API](#Interval-API)
   - [Duration API](#Duration-API)
+  - [TODO](#TODO)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -28,7 +27,7 @@ npm install -g dates-ranger
 
 ### Background
 
-In many business, people would like to query data in a specific period, such as Week to Date", "Last Month" or "Recent Three Days", this is hard to find as TODAY moves forwards. And in many calendar apps, people are interested in the duration between given dates. All is made easy with this library.
+In many business, people would like to query data in a specific period, such as Week to Date", "Last Month" or "Recent Three Days", It is hard to find them as TODAY moves forwards. And in many calendar apps, people are interested in the duration between given dates. All is made easy with this library.
 
 ### Interval API
 
@@ -63,16 +62,17 @@ duration.btwTodayAndDestination('12/7/2020'); //return -5
 //static method
 Duration.btwDates('12/13/2020', '12/10/2020'); //return -3
 Duration.btwDates(new Date('12/13/2020'), new Date('11/30/2020')); //return -13
+Duration.btwDates(...new DateInterval().getIntervalForPreviousYear()); //return 364
 ```
 
 More usage info, please consult documentation and unit test.
 
-### TODO 
-| Task | Expected Delivery |
-| --- | --- |
-| TimeInterval to provide utilities for time interval operations | 12/31/2020 |
-| Date Formater to let users easily format the output dates | 1/15/2021 |
+### TODO
 
+| Task                                                           | Expected Delivery |
+| -------------------------------------------------------------- | ----------------- |
+| TimeInterval to provide utilities for time interval operations | 12/31/2020        |
+| Date Formater to let users easily format the output dates      | 1/15/2021         |
 
 ## Maintainer
 
