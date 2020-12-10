@@ -1,6 +1,6 @@
 # dates-ranger
 
-Dates-ranger helps you find date interval and calculate duration much easier than ever. This library is light-weighted and dependency free, and it is purely developed in [Typescript](https://www.npmjs.com/package/typescript).
+Dates-ranger helps you find date intervals and calculate duration much easier than ever. This library is light-weighted and dependency free, and it is purely developed in [Typescript](https://www.npmjs.com/package/typescript).
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ npm install -g dates-ranger
 
 ### Background
 
-In many business, people would like to query data in a specific period, such as Week to Date", "Last Month" or "Recent Three Days", It is hard to find them as TODAY moves forwards. And in many calendar apps, people are interested in the duration between given dates. All is made easy with this library.
+In various use cases, people would like to query data in a specific period, such as "Week to Date", "Last Month" or "Recent Three Days", It is hard to find them as TODAY moves forward. And in many calendar apps, people are interested in the duration between given dates. All is made easy with this library.
 
 ### Interval API
 

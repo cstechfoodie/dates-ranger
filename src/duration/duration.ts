@@ -39,7 +39,7 @@ export class Duration {
     }
     const duration =
       (end.getTime() - start.getTime()) / constant.DAY_IN_MILLISECONDS;
-    return duration;
+    return Math.round(duration);
   }
 
   /**
